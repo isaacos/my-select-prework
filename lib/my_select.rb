@@ -1,4 +1,4 @@
 def my_select(collection)
 
-collection.select { |i| yield(i) }
+collection.select { |col| yield(col) }
 end
